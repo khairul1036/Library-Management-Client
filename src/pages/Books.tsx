@@ -38,7 +38,7 @@ export default function Books() {
   const [deleteOpen, setDeleteOpen] = useState(false);
 
   const location = useLocation();
-  const isBooksPage = location.pathname === "/books";
+  const isBooksPage = location.pathname === "/";
 
   // Extract the books properly from `booksData.data`
   const books = booksData?.data || [];

@@ -85,7 +85,7 @@ export const Navbar = () => {
                   </div>
                   <nav>
                     <ul className="space-y-4">
-                      <Link to={"/books"}>
+                      <Link to={"/"}>
                         <li className="font-medium tracking-wide text-black dark:text-white transition-colors duration-200 hover:underline mb-2">
                           All Books
                         </li>
@@ -95,9 +95,9 @@ export const Navbar = () => {
                           Add Book
                         </li>
                       </Link>
-                      <Link to={"/borrow-summary"}>
+                      <Link to={"/borrow-book"}>
                         <li className="font-medium tracking-wide text-black dark:text-white transition-colors duration-200 hover:underline">
-                          Borrow Summary
+                          Borrow book
                         </li>
                       </Link>
                     </ul>
