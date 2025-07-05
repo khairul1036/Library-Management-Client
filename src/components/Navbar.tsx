@@ -18,7 +18,7 @@ export const Navbar = () => {
                 className="w-8 dark:invert text-black dark:text-white"
               />
               <span className="ml-2 text-lg font-bold tracking-wide uppercase">
-                Books
+                Library Management
               </span>
             </Link>
           </div>
@@ -60,7 +60,7 @@ export const Navbar = () => {
                           className="w-8 dark:invert text-black dark:text-white"
                         />
                         <span className="ml-2 text-lg font-bold tracking-wide uppercase">
-                          Books
+                          Library Management
                         </span>
                       </Link>
                     </div>

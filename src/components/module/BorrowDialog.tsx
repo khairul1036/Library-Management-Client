@@ -66,7 +66,7 @@ export default function BorrowDialog({
       }, 300);
     } catch (error) {
       console.error(error);
-      toast.error("Failed to borrow book.");
+      toast.error("Not enough copies available.");
     }
   };
 
