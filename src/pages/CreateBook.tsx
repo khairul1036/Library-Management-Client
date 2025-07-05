@@ -159,7 +159,7 @@ export default function CreateBook() {
           </div>
 
           {/* Submit Button */}
-          <Button type="submit" disabled={isLoading} className="w-full mt-4">
+          <Button type="submit" disabled={isLoading} className="w-full mt-4 cursor-pointer">
             {isLoading ? "Creating..." : "Create Book"}
           </Button>
         </form>

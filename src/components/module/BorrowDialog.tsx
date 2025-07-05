@@ -62,7 +62,7 @@ export default function BorrowDialog({
         setQuantity(1);
         setDueDate(null);
         onComplete();
-        navigate("/borrow-summary");
+        navigate("/borrow-book");
       }, 300);
     } catch (error) {
       console.error(error);
