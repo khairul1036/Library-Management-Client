@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { ModeToggle } from "../mode-toggle";
+import { ModeToggle } from "./mode-toggle";
 import { Link } from "react-router";
-import bookIcon from "../../assets/logo.jpg";
+import bookIcon from "../assets/logo.jpg";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -118,9 +118,9 @@ export const Navbar = () => {
                   Add Book
                 </li>
               </Link>
-              <Link to={"/borrow-summary"}>
+              <Link to={"/borrow-book"}>
                 <li className="font-medium tracking-wide text-black dark:text-white transition-colors duration-200 hover:underline">
-                  Borrow Summary
+                  Borrow Book
                 </li>
               </Link>
             </ul>

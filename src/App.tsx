@@ -1,11 +1,13 @@
 import { Outlet } from "react-router";
-import { Navbar } from "./components/navbar/Navbar";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="w-10/12 mx-auto">
+        <Outlet></Outlet>
+      </div>
     </>
   );
 }
