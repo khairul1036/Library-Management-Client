@@ -1,12 +1,13 @@
-import { Button } from "./components/ui/button"
+import { Outlet } from "react-router";
+import { Navbar } from "./components/navbar/Navbar";
 
 function App() {
-
   return (
     <>
-        <Button>ok</Button>
+      <Navbar></Navbar>
+      <Outlet></Outlet>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
